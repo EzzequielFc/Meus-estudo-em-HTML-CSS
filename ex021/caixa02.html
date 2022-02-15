@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: lightpink;
+            font-size:  1.3em;
+            text-align: left;
+            text-indent: 20px;
+        }
+        
+        header > h1{
+            color: aqua;
+            font-size: 2em;
+            text-align: center;
+            border: 10px double rgb(99, 26, 26);
+            margin: 30px;
+            padding: 10px;
+            border-radius: 0px 20px;
+            box-shadow: 3px 3px 6px rgb(173, 81, 81);
+        }
+        header > nav{
+            text-align: center;
+
+        }
+        nav > a{
+            color: wheat;
+            text-decoration: none;
+            box-shadow: 1px 5px 30px wheat;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            text-align: right;
+            margin: 10px;
+            background-color: black;
+            color: wheat;
+            padding: 4px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        main{
+            text-align: justify;
+            margin: 30px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: blueviolet;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Exercicio Grouping Tags em HTML5</h1>
+        <nav>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Digitais</p>
+        </section>
+        <section id="noticias">
+            <article>
+            <h2>Noticias Sobres Novos Jogos que serão considerados Esportes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam et natus quis beatae, quae, totam iste mollitia ullam qui sequi laborum tenetur alias. Voluptatibus mollitia officia nobis quam ipsum in.</p>
+            <aside>
+                <p>Artigo escrito por Antorio Marinho</p>
+            </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ezequiel Francisco</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

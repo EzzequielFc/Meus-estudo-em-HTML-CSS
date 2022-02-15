@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightblue;
+            text-align: center;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+        div#div1 > p{
+            display: none;
+        }
+
+        div#div2 > p{
+            display: none;
+        }
+
+        div#div3 > p{
+            display: none;
+        }
+        div#div1:hover > p{
+            display: block;
+        }
+        div#div2:hover > p{
+            display: block;
+        }
+        div#div3:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id = "div1">01
+        <p>Texto Escondio</p>
+    </div>
+    <div id = "div2">02
+        <p>Texto Escondio</p>
+    </div>
+        
+    <div id = "div3">03
+        <p>Texto Escondio</p>
+    </div>
+</body>
+</html>
