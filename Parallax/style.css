@@ -16,32 +16,30 @@ h1{
     color: white;
     font-size: 10vh;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 section > div#titulo{
     background-color: rgb(172, 255, 47);
     width: 350px;
     height: 100px;
-    border: 3px solid white;
-    border-radius: 100px;
     position: absolute;
     left: 50%; 
     right: 50%;
     transform: translate(-50%,300%);
 }
 p{
-    font-family: var(--fonte2);
-    font-size: 5vh;
-    text-align: center;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    
+   padding: 50px; 
 }
 section.nada{
     width: 100%;
     height: 300px;
     background-color: rgb(172, 255, 47);
+    font-family: var(--fonte2);
+    font-size: 5vh;
+    text-align: center justify;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 section.imagem{
     width: 100%;
@@ -58,20 +56,6 @@ section#img1{
 }
 section#img2{
     background-image: url('https://1.bp.blogspot.com/-SUkmnrIpt1M/YNpgLo03dGI/AAAAAAABCMQ/occbsXdDw8UtseqfTvnTLgpEk8JVica_ACLcBGAsYHQ/s2560/Cidade%2Ba%2BNoite%2BWallpaper%2BFull%2BHD.jpg');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-section#img3{
-    background-image: url('https://besthqwallpapers.com/Uploads/15-11-2017/28825/thumb2-4k-melbourne-modern-buildings-cityscapes-sunset.jpg');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-section#img4{
-    background-image: url('https://besthqwallpapers.com/Uploads/3-3-2018/42846/thumb2-chicago-4k-cityscapes-panorama-sunset.jpg');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
