@@ -1,0 +1,12 @@
+body{
+    background: black url('https://images6.alphacoders.com/987/thumb-1920-987577.png') top center no-repeat fixed;
+
+    background-size: 100%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    
+}
