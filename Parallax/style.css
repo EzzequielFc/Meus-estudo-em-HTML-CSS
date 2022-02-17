@@ -19,13 +19,11 @@ h1{
     padding-top: 10px;
 }
 section > div#titulo{
-    background-color: rgb(172, 255, 47);
     width: 350px;
     height: 100px;
     position: absolute;
-    left: 50%; 
-    right: 50%;
-    transform: translate(-50%,300%);
+    width: 100%;
+    top: 50%;
 }
 p{
    padding: 50px; 
