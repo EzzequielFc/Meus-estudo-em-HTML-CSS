@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body{
+    background: lightcoral;
+}
+ul{
+    background: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background: red;
+}
+
+li.dropdown{
+    display: inline-block;
+
+}
+.drop-content{
+    display: none;
+    position: absolute;
+    background: white;
+    width: 150px;
+}
+.drop-content a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.drop-content a:hover{
+    color: white;
+}
+.dropdown:hover .drop-content{
+    display: block;
+}
