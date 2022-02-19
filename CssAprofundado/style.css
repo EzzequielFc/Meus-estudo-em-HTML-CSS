@@ -1,6 +1,35 @@
 @charset "UTF-8";
 
-body{
+.glass-wrapper {
+    font-family:Arial;
+    width: 40%;
+    margin:0 auto;
+    overflow: hidden;
+    min-height: 400px;
+    padding:50px;
+    box-sizing:border-box;
+    background: #24b9c4;
+    color: rgb(72, 151, 131);
+    border-radius:8px;
+    position: relative;
+  }
+  .content {
     width: 100%;
-    height: 500px;
-}
+    box-sizing:border-box;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #fff, 1px 1px 1px #000, 1px 1px 1px #ccc;
+  }
+   
+  .glass {
+    width: 160%;
+    height: 316px;
+    opacity: .1;
+    background: #fff;
+    position: absolute;
+    top: -114px;
+    left: -200px;
+    z-index: 9;
+    border-radius: 50%;
+  }
+  

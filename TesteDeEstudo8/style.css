@@ -14,10 +14,12 @@ body{
     max-width: 700px;
     height: 400px;
     background: white;
+
     left: 50vh;
     top: 25vh;
     box-shadow:2px 0px 15px black;
     border-radius: 0px 0px 5px 5px;
+
 }
 .titulo{
     color:#2cb3af;
