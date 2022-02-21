@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: plum
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.card{
+    margin: 30px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px rgb(44, 41, 41);
+}
+.midiaCard{
+    background: url('https://lojasaraiva.vteximg.com.br/arquivos/ids/2611292/1008020098.jpg?v=637019846875930000') center/cover;
+    height: 250px;
+    width: 100%;
+}
+.midiaCard2{
+    background: url('http://yonihon.files.wordpress.com/2010/01/onepiece.jpg') center/cover;
+    height: 250px;
+    width: 100%;
+}
+.midiaCard3{
+    background: url('https://images.uncyc.org/pt/thumb/1/13/Dragon-ball.jpg/200px-Dragon-ball.jpg') center/cover;
+    height: 250px;
+    width: 100%;
+}
+.headCard{
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: green;
+}
+.footerCard{
+    padding: 20px;
+}
+.actions{
+    background: none;
+    border: none;
+    color: purple;
+}
+.secondText,
+
+.bottomText{
+    text-align: center;
+    color: lightslategray;
+}
+.actionsCard{
+    text-align: center;
+    font-size: 1.5em;
+}

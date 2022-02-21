@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(39, 25, 25);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1{
+    background-image: url('https://1.bp.blogspot.com/-25_D6YWrqnc/YHwnG_dfquI/AAAAAAAAuRE/SmFH6Uxs-ici92dbwq5fH9snqVNiPLNNQCLcBGAsYHQ/s2048/Ford%2BMustang%2BMach%2B1%2B-%2BBR%2B%252818%2529.jpg');
+}
+.car-2{
+    background-image: url('https://quatrorodas.abril.com.br/wp-content/uploads/2020/08/BMW-M8-Grand-Coup%C3%A9-Competition-6-C%C3%B3pia-e1597280973631.jpg?quality=70&strip=info&w=1024');
+}
+.car-3{
+    background-image: url('https://cdn.autopapo.com.br/box/uploads/2021/04/30152724/ferrari_roma_na_estrada-scaled.jpg');
+}
+h2{
+    padding: 10px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+.card:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
