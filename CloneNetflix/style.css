@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 100;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 300;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 800;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 900;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
+}
+body{
+    font-family: 'Netflix Sans';
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.plano-de-fundo{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/52609230-dd78-4dba-82a1-8bb3ac3803e6/BR-pt-20220214-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    flex-wrap: wrap;
+}
+
+.logo-netflix{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 134px;
+}
+
+.botao-entrar{
+    font-family: 'Netflix Sans';
+    margin: 40px 40px 0px 0px;
+    padding: 8px 20px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    background: red;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.texto-central{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Netflix Sans';
+    width: 100vw;
+    height: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-principal{
+    font-size: 50px;
+    color:  white;
+}
+.subtitulo-principal{
+    font-size: 26px;
+    color:  white;
+}
+.paragrafo-principal{
+    color:  white;
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.sec1,
+.sec2,
+.sec3,
+.sec4{
+    font-family: 'Netflix Sans';
+    border-top: 4px solid rgb(44, 44, 44);
+    border-bottom: 4px solid rgb(44, 44, 44);
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-sec1{
+    width: 500px;
+}
+
+.subtitulo-principal2{
+    font-size: 18px;
+    color:  white;
+}
+
+.perguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6{
+    padding: 20px;
+    display: none;
+    text-align: justify;
+}
+
+.q1,
+.q2,
+.q3,
+.q4,
+.q5,
+.q6{
+    text-align: center;
+    padding: 10px;
+    width: 700px;
+    height: auto;
+    margin-bottom: 10px;
+    background: #303030;
+
+}
+.q1 h2,
+.q2 h2,
+.q3 h2,
+.q4 h2,
+.q5 h2,
+.q6 h2{
+    text-align: left;
+    background: #303030;
+
+}
+
+.q1:hover p,
+.q2:hover p,
+.q3:hover p,
+.q4:hover p,
+.q5:hover p,
+.q6:hover p{
+    display: block;
+}
+#perguntas{
+    margin: 50px;
+}
+
