@@ -67,7 +67,7 @@ main button{
     font-size: 16px;
     border-radius: 10px;
 }
-.card{
+.card{ 
     margin: 20px;
     height: auto;
     width: 200px;
@@ -83,7 +83,7 @@ main button{
     background: lightseagreen;
     color: white;
     transition: 0.5s;
-}
+} 
 .card:hover button{
     display: none;
 }

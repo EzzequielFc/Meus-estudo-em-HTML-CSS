@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fundo{
+    background-image: url('https://github.com/FRONT-Tecnologia/Como-Criar-uma-Landing-Page-do-Zero-com-HTML-CSS/blob/main/Image/bg.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.menu-navegacao-lateral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100vh;
+}
+
+.texto-central{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.titulo-l1,
+.titulo-l2,
+.titulo-l3{
+    font-family: 'Redressed', cursive;
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 0px 3px whitesmoke;
+    margin: 60px;
+}
+
+.desc-l1,
+.desc-l2,
+.desc-l3{
+    color: lightgray;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 30px;
+}
+
+.titulo-l2,
+.desc-l2,
+.titulo-l3,
+.desc-l3{
+    display: none;
+}
+.div-imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100vh;
+}
+
+.img1,
+.img2,
+.img3{
+    width: 400px;
+}
+
+.img2,
+.img3{
+    display: none;
+}
+
+ul li{
+    font-size: 1.2em;
+    color: lightgray;
+    list-style: none;
+    background: rgb(32, 32, 32);
+    border-radius: 50%;
+    padding: 15px 23px 15px 23px;
+    margin: 50px;
+    box-shadow: 1px 1px 1px black;
+}
+ 
+.btn1:hover,
+.btn2:hover,
+.btn3:hover{
+    color: lightseagreen;
+    box-shadow: 1px -1px 50px lightseagreen;
+    margin-top: 60px;
+    background: white;
+    transition: 0.7s;
+}
+
+.btn2:hover .titulo-l1 {
+    display: none;
+}
+.btn2:hover .img3{
+    display: none;
+}
+
