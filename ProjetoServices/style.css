@@ -76,7 +76,7 @@ main button{
     border-radius: 10px;
 }
 .card:hover .texto-oculto{
-    display: block;
+    display: block;-
 }
 
 .card:hover{

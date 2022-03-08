@@ -95,8 +95,12 @@ ul li{
     background: white;
     transition: 0.7s;
 }
+ 
+.btn2:hover .img2{
+    display: block;
+}
 
-.btn2:hover .titulo-l1 {
+.btn2:hover .img1 {
     display: none;
 }
 .btn2:hover .img3{
